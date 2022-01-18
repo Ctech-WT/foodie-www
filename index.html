@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>foodie</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+<style>
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#fd-wrapper {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.content-wd {
+    width: 1200px;
+    margin: auto;
+}
+.nav1 {
+    display: flex;
+    color: #000000;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 33px;
+}
+.navlist {
+    width: 201px;
+    height: 14px;
+    font-family: Roboto;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 11.864px;
+    transform: scale(0.843, 0.843);
+}
+.nav2 {
+    display: flex;
+    color: #000000;
+    list-style: none;
+    justify-content: space-between;
+}
+.banner {
+    width: 100%;
+    height: 663px;
+    background-image: url("images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.sectionone {
+    height: 300px;
+    font-family: Roboto;
+    color: #2c2a2a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37.5px;
+    margin-top: 30px;
+}
+.sectiononesub {
+    width: 213px;
+    height: 57px;
+    font-family: 'Myriad Pro';
+    color: #2c2a2a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0px;
+}
+.nav1 li a {
+ font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 11.864px;
+    transform: scale(0.843, 0.843);
+    text-decoration: none;
+}
+.nav-wrapper {
+    display: flex;
+    column-gap: 56px;
+}
+.banner h3 {
+    width: 444px;
+    padding: 0px 60px;
+    height: 58px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 37.5px;
+    text-shadow: 0px 13px 7.44px rgba(137, 137, 137, 0.25);
+}
+.sectionone h3 {
+    display: flex;
+    width: 324px;
+    height: 24px;
+    font-family: Roboto;
+    color: #2c2a2a;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.sectiononesub h3 {
+    display: flex;
+    width: 213px;
+    height: 24px;
+    font-family: 'Myriad Pro';
+    color: #2c2a2a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.soup h3 {
+    width: 54px;
+    height: 21px;
+    padding: 0px 43px;
+    font-family: Poppins;
+    color: #2c2a2a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.section-wrapper {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+.pasta h3 {
+    width: 59px;
+    height: 16px;
+    padding: 0px 41px;
+    font-family: Poppins;
+    color: #2c2a2a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.Shavarma h3 {
+    width: 110px;
+    height: 16px;
+    padding: 0px 21px;
+    font-family: Poppins;
+    color: #2c2a2a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.Biriyani h3 {
+    width: 78px;
+    height: 22px;
+    padding: 0px 40px;
+    font-family: Poppins;
+    color: #2c2a2a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.Sandwich h3 {
+    width: 103px;
+    height: 17px;
+    padding: 0px 20px;
+    font-family: Poppins;
+    color: #2c2a2a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.Curry h3 {
+    width: 58px;
+    height: 21px;
+    padding: 0px 52px;
+    font-family: Poppins;
+    color: #2c2a2a;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.sectiontwo {
+    padding-top: 38px;
+    background-color: #ECECEC;
+    height: 475px;
+    position: relative;
+}
+.heading {
+    height: 27px;
+    font-family: Roboto;
+    color: #2c2a2a;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.sectiontwosub {
+    height: 14px;
+    font-family: 'Myriad Pro';
+    color: #2c2a2a;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+.sectiontwosub span {
+    font-family: 'Myriad Pro';
+    color: #67a725;
+    font-size: 14px;
+    font-weight: 400;
+}
+.section-wrapper-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rahath {
+    width: 250px;
+    height: 213px;
+    background-color: #ffffff;
+    box-shadow: 0px 13px 18px 0px rgba(93, 88, 88, 0.28);
+    border-radius: 10px;
+    position: relative;
+}
+.rahath img {
+    width: 100%;
+}
+.rahath h3 {
+    font-family: Roboto;
+    color: #1d1d1d;
+    font-size: 22.19px;
+    font-weight: 400;
+    line-height: 9.862px;
+    text-transform: capitalize;
+    padding-top: 27px;
+    margin-left: 17px;
+}
+.rahath h4 {
+    font-family: Poppins;
+    color: #717171;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 7.396px;
+    padding-top: 8px;
+    margin-left: 16px;
+}
+.rating {
+    display: flex;
+    width: 56px;
+    height: 27px;
+    background-color: #db7c38;
+    position: absolute;
+    top: 173px;
+    left: 188px;
+    align-items: center;
+    justify-content: space-around;
+}
+.rating img {
+    width: 18px;
+    height: 16px;
+}
+.rating h2 {
+    width: 22px;
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.greenrating {
+    display: flex;
+    width: 56px;
+    height: 27px;
+    background-color: #48c479;
+    position: absolute;
+    top: 173px;
+    left: 188px;
+    align-items: center;
+    justify-content: space-around;
+}
+.greenrating img {
+    width: 18px;
+    height: 16px;
+}
+.greenrating h2 {
+    width: 22px;
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.fusionTable {
+    width: 307px;
+    height: 235px;
+    background-color: #ffffff;
+    box-shadow: 0px 13px 18px 0px rgba(93, 88, 88, 0.28);
+    border-radius: 10px;
+}
+.fusionTable img {
+    width: 100%;
+}
+.fusionTable h3 {
+    font-family: Roboto;
+    color: #1d1d1d;
+    font-size: 22.19px;
+    font-weight: 400;
+    line-height: 9.862px;
+    text-transform: capitalize;
+    padding-top: 27px;
+    margin-left: 17px;
+}
+.fusionTable h4 {
+    font-family: Poppins;
+    color: #717171;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 7.396px;
+    padding-top: 8px;
+    margin-left: 16px;
+}
+.ramees {
+    width: 307px;
+    height: 235px;
+    background-color: #ffffff;
+    box-shadow: 0px 13px 18px 0px rgba(93, 88, 88, 0.28);
+    border-radius: 10px;
+}
+.ramees img {
+    width: 100%;
+}
+.ramees h3 {
+    font-family: Roboto;
+    color: #1d1d1d;
+    font-size: 22.19px;
+    font-weight: 400;
+    line-height: 9.862px;
+    text-transform: capitalize;
+    padding-top: 27px;
+    margin-left: 17px;
+}
+.ramees h4 {
+    font-family: Poppins;
+    color: #717171;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 7.396px;
+    padding-top: 8px;
+    margin-left: 16px;
+}
+.section-wrapper-two .sidearrow {
+}
+.sectionthree {
+    padding-top: 21px;
+    width: 100%;
+    height: 417px;
+    background-color: #f6f6f6;
+}
+.sectionthreesub h4 {
+    font-family: 'Myriad Pro';
+    color: #2c2a2a;
+    font-size: 14px;
+    font-weight: 400;
+}
+.spcecialoffercard1 {
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 385px;
+    height: 144px;
+    box-shadow: 0px 13px 18px 0px rgba(93, 88, 88, 0.28);
+}
+.specialofferimage1 {
+    width: 149px;
+    height: 140px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.specialoffertext1 {
+    font-family: Roboto;
+    color: #db7c38;
+    font-size: 22.19px;
+    font-weight: 400;
+    line-height: 9.862px;
+    margin-left: 168px;
+    margin-top: -117px;
+}
+.specialoffertext2 {
+    font-family: Poppins;
+    color: #717171;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 7.396px;
+    padding-top: 14px;
+    margin-left: 170px;
+}
+.specialofferimage2 {
+    margin-left: 162px;
+    margin-bottom: -48px;
+}
+.specialoffertext3 {
+    font-family: Roboto;
+    color: #000000;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 9.492px;
+    margin-left: 180px;
+    margin-top: 34px;
+}
+.totalcard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-banner {
+    width: 100%;
+    height: 663px;
+    position: relative;
+    background-image: url("images/chicken-skewers-with-slices-sweet-peppers-dill.png");
+    background-size: cover;
+    position: relative;
+}
+.second-banner-content {
+    position: absolute;
+    top: 102px;
+    left: 238px;
+}
+.second-banner h3 {
+    font-family: Roboto;
+    color: #e0e0e0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.second-banner p {
+    font-family: 'Myriad Pro';
+    color: #e8e8e8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-top: 10px;
+}
+.sectionthreesub {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.sumbitbox {
+    padding: 16px 31px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: none;
+}
+.sumbit-btn {
+    padding: 16px 31px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #67a725;
+    margin-left: -12px;
+    border: none;
+}
+.sumbit-group {
+    margin-top: 49px;
+}
+.second-banner-overlay {
+    width: 100%;
+    height: 181px;
+    background-color: rgba(212, 166, 71, 0.87);
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.number-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.no {
+    font-family: Poppins;
+    color: #f6f6f6;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 9.862px;
+}
+.number span:last-child {
+    font-family: Poppins;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 9.862px;
+}
+.footer {
+    width: 100%;
+    height: 427px;
+    background-color: #ffffff;
+    padding-top: 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-item h2 {
+    font-family: Roboto;
+    color: #0d0d0d;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.footer-item ul {
+    list-style: none;
+}
+.footer-item ul li {
+    font-family: Roboto;
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.footer-icon {
+    margin-top: 22px;
+    width: 107px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-item2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.copyright {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #696969;
+}
+.copyright span {
+    font-family: Roboto;
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+.copyright-wrapper {
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+}
+</style>
+</head>
+<body>
+<div id="fd-wrapper">
+  <div class="content-wd header">
+    <div class="nav-wrapper"> <img src="images/Foodielogo.png" width="47" height="65" alt=""/>
+      <ul class="nav1">
+        <li><a class="navlist" href="#"> CHOOSE LOCATION</a></li>
+        <li><a class="navlist" href="#"> DELIVERY NOW</a></li>
+      </ul>
+    </div>
+    <ul class="nav1">
+      <li><a class="navlist" href="#"> LOG IN</a></li>
+      <li><a class="navlist" href="#"> REGISTER</a></li>
+    </ul>
+  </div>
+  <div class="banner">
+    <h3>30% OFF ON EVERY FIRST ORDER USE CODE NEW</h3>
+  </div>
+  <div class="sectionone content-wd">
+    <h3>Looking for something Else</h3>
+    <div class="sectiononesub">
+      <h4>Discover restaurant by types of meal</h4>
+    </div>
+    <div class="section-wrapper">
+      <div class="soup"> <img src="images/image-web/traditional-indian-soup-lentils-indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table.png" alt=""/>
+        <h3>Soup</h3>
+      </div>
+      <div class="pasta"> <img src="images/image-web/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table round.png" alt=""/>
+        <h3>Pasta</h3>
+      </div>
+      <div class="Shavarma"> <img src= "images/side-view-shawarma-with-fried-potatoes-board-cookware.png" alt=""/>
+        <h3>Shavarma</h3>
+      </div>
+      <div class="Biriyani"> <img src="images/side-view-rice-garnish-with-fried-onion-carrot-greens-chili-pepper-table.png" alt=""/>
+        <h3>Biriyani</h3>
+      </div>
+      <div class="Sandwich"> <img src="images/club-sandwich-panini-with-ham-cheese-tomato-herbs.png" alt=""/>
+        <h3>Sandwich</h3>
+      </div>
+      <div class="Curry"> <img src="images/high-angle-chicken-meal.png" alt=""/>
+        <h3>Curry</h3>
+      </div>
+    </div>
+  </div>
+  <div class="sectiontwo">
+    <h3 class="content-wd heading">Popular Restaurant</h3>
+    <div class="sectiontwosub content-wd">
+      <h4>Near Your Locality</h4>
+      <span>View all offers</span> </div>
+    <div class="section-wrapper-two content-wd"> <img src="images/image web/arrowicon.png" alt="" width="27px" height="35px" class="sidearrow"/>
+      <div style="display: flex; margin:0px 12px; column-gap: 12px;">
+        <div class="rahath"> <img src="images/top-view-indian-food-assortment.png" alt=""/>
+          <h3>Rahath</h3>
+          <h4>South Indian, Indian</h4>
+          <h4>36MINS</h4>
+          <div class="rating"> <img src="images/image-web/outline_star_white_24dp.png" alt=""/>
+            <h2>3.9</h2>
+          </div>
+        </div>
+        <div class="rahath"> <img src="images/top-view-cooked-rice-with-seasonings-dark-desk-food-dish-dark-meal-photo.png" alt=""/>
+          <h3>Fusion Table</h3>
+          <h4>Chinese, Arabian</h4>
+          <h4>30 MINS</h4>
+          <div class="greenrating"> <img src="images/image-web/outline_star_white_24dp.png" alt=""/>
+            <h2>4.2</h2>
+          </div>
+        </div>
+        <div class="rahath"> <img src="images/top-view-delicious-vegetable-salad-with-greens-carrot-dark-background-color-ripe-food-meal-healthy-life-photo.png" alt=""/>
+          <h3>Ramees</h3>
+          <h4>Arabian, Indian, Beverages</h4>
+          <h4>24 MINS</h4>
+          <div class="greenrating"> <img src="images/image-web/outline_star_white_24dp.png" alt=""/>
+            <h2>4.0</h2>
+          </div>
+        </div>
+        <div class="rahath"> <img style="height: 115px; border-radius: 10px; " src="images/Holborn.jpg" alt=""/>
+          <h3>Holborn</h3>
+          <h4>Arabian,Indian,Turkish</h4>
+          <h4>24 MINS</h4>
+          <div class="rating"> <img src="images/image-web/outline_star_white_24dp.png" alt=""/>
+            <h2>3.9</h2>
+          </div>
+        </div>
+      </div>
+      <img src="images/side-arrow-right.png" alt="" class="sidearrow" width="27px" height="35px" />
+      <div style="display: flex"> </div>
+    </div>
+  </div>
+  <div class="sectionthree">
+    <div class="sectionthreesub content-wd">
+      <h3 class="content-wd heading">Special offer</h3>
+      <h4>Provided by local restuarant</h4>
+    </div>
+    <div class="totalcard content-wd">
+      <div class="spcecialoffercard1"> <img class="specialofferimage1" src="images/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus.png" alt=""/>
+        <h3 class="specialoffertext1">CITY HOTEL</h3>
+        <h4 class="specialoffertext2">BIRIYANI </h4>
+        <img class="specialofferimage2" src="images/discount_(1).png" alt=""/>
+        <h4 class="specialoffertext3">30% off | Use NEW </h4>
+      </div>
+      <div class="spcecialoffercard1"> <img class="specialofferimage1" src="images/4040761.png" alt=""/>
+        <h3 class="specialoffertext1">LASSI SHOTS</h3>
+        <h4 class="specialoffertext2">SMOOTHIES</h4>
+        <img class="specialofferimage2" src="images/discount_(1).png" alt=""/>
+        <h4 class="specialoffertext3">40% off | Use FOOD</h4>
+      </div>
+      <div class="spcecialoffercard1"> <img class="specialofferimage1" src="images/top-view-chopping-board-with-delicious-kebab-lemon.png" alt=""/>
+        <h3 class="specialoffertext1">TURKISH LAND</h3>
+        <h4 class="specialoffertext2">ARABIC FOOD</h4>
+        <img class="specialofferimage2" src="images/discount_(1).png" alt=""/>
+        <h4 class="specialoffertext3">20% off | Use NEW </h4>
+      </div>
+    </div>
+  </div>
+  <div class="second-banner content-wd">
+    <div class="second-banner-content">
+      <h3>Download the app</h3>
+      <p>See menus and photos for nearby<br>
+        restaurants</p>
+      <div class="sumbit-group">
+        <input class="sumbitbox" type="email" placeholder="Enter Your Email">
+        <input class="sumbit-btn" type="submit" value="submit">
+      </div>
+    </div>
+    <div class="second-banner-overlay">
+      <div class="number-wrapper content-wd">
+        <div class="number"> <span class="no"> 12 </span><br>
+          <span> COUNTRY </span> </div>
+        <div class="number"> <span class="no"> 1M+ </span><br>
+          <span> RESTAURANT </span> </div>
+        <div class="number"> <span class="no"> 120M </span><br>
+          <span> FOOD EVERY MONTH</span> </div>
+        <div class="number"> <span class="no"> 30M </span><br>
+          <span> BOOKMARKS </span> </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-wrapper content-wd">
+      <div class="footer-item footer-item2"> <img src="images/Logo-01-copy.png" alt="">
+        <div class="footer-icon"> <img src="images/facebook.png" alt=""> <img src="images/twitter.png" alt=""> <img src="images/instagram.png" alt=""> </div>
+      </div>
+      <div class="footer-item">
+        <h2> About Company</h2>
+        <ul>
+          <li> About Us</li>
+          <li> Read Our Blog</li>
+          <li> Contact Us</li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <h2> Doing Business</h2>
+        <ul>
+          <li> Sign Up to Delivery</li>
+          <li> Be a Partner Restaurant</li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <h2> Get Help</h2>
+        <ul>
+          <li> Read FAQs</li>
+          <li> Account Details</li>
+          <li> View All Cities</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright content-wd"> <span>Copyright © 2021 </span>
+      <div class="copyright-wrapper"> <span>Privacy policies</span> <span>Terms of Use</span> <span>Rating</span> </div>
+      <select>
+        <option> English </option>
+        <option> Malayalam </option>
+      </select>
+    </div>
+  </div>
+</div>
+</body>
+</html>
