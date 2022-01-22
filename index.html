@@ -37,6 +37,9 @@
     line-height: 11.864px;
     transform: scale(0.843, 0.843);
 }
+	.nav1 li a:hover{
+		color: #00BE40;
+	}
 .nav2 {
     display: flex;
     color: #000000;
@@ -557,6 +560,27 @@
     display: flex;
     justify-content: space-around;
 }
+	.meals-img:hover{
+		opacity: 50%;
+	}
+	.sectiontwosub span:hover{
+		color: #DC7623;
+	}
+	.card{
+		text-decoration: none;
+	}
+	.card:hover img.cardim1{
+		opacity: 0.5;
+	}
+	.card2{
+		text-decoration: none;
+	}
+	.card2:hover{
+		opacity: 0.5;
+	}
+	.sumbit:hover{
+		color: #306000;
+	}
 </style>
 </head>
 <body>
@@ -582,22 +606,22 @@
       <h4>Discover restaurant by types of meal</h4>
     </div>
     <div class="section-wrapper">
-      <div class="soup"> <img src="images/image-web/traditional-indian-soup-lentils-indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table.png" alt=""/>
+      <div class="soup"><a href="#" class="meals-img"> <img src="images/image-web/traditional-indian-soup-lentils-indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table.png" alt=""/></a>
         <h3>Soup</h3>
       </div>
-      <div class="pasta"> <img src="images/image-web/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.png" alt=""/>
+      <div class="pasta"><a href="#" class="meals-img"> <img src="images/image-web/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.png" alt=""/></a>
         <h3>Pasta</h3>
       </div>
-      <div class="Shavarma"> <img src= "images/side-view-shawarma-with-fried-potatoes-board-cookware.png" alt=""/>
+      <div class="Shavarma"><a href="#" class="meals-img"> <img src= "images/side-view-shawarma-with-fried-potatoes-board-cookware.png" alt=""/> </a>
         <h3>Shavarma</h3>
       </div>
-      <div class="Biriyani"> <img src="images/side-view-rice-garnish-with-fried-onion-carrot-greens-chili-pepper-table.png" alt=""/>
+      <div class="Biriyani"><a href="#" class="meals-img"> <img src="images/side-view-rice-garnish-with-fried-onion-carrot-greens-chili-pepper-table.png" alt=""/></a>
         <h3>Biriyani</h3>
       </div>
-      <div class="Sandwich"> <img src="images/club-sandwich-panini-with-ham-cheese-tomato-herbs.png" alt=""/>
+      <div class="Sandwich"><a href="#" class="meals-img"> <img src="images/club-sandwich-panini-with-ham-cheese-tomato-herbs.png" alt=""/></a>
         <h3>Sandwich</h3>
       </div>
-      <div class="Curry"> <img src="images/high-angle-chicken-meal.png" alt=""/>
+      <div class="Curry"><a href="#" class="meals-img"> <img src="images/high-angle-chicken-meal.png" alt=""/></a>
         <h3>Curry</h3>
       </div>
     </div>
@@ -609,37 +633,41 @@
       <span>View all offers</span> </div>
     <div class="section-wrapper-two content-wd"> <img src="images/image-web/arrow-icon.png" alt="" width="27px" height="35px" class="sidearrow"/>
       <div style="display: flex; margin:0px 12px; column-gap: 12px;">
-        <div class="rahath"> <img src="images/top-view-indian-food-assortment.png" alt=""/>
+        <div class="rahath"><a href="#" class="card"><img src="images/top-view-indian-food-assortment.png" alt="" class="cardim1"/>
           <h3>Rahath</h3>
           <h4>South Indian, Indian</h4>
           <h4>36MINS</h4>
           <div class="rating"> <img src="images/image-web/outline-star-white-24dp.png" alt=""/>
             <h2>3.9</h2>
           </div>
+			</a>
         </div>
-        <div class="rahath"> <img src="images/top-view-cooked-rice-with-seasonings-dark-desk-food-dish-dark-meal-photo.png" alt=""/>
+        <div class="rahath"><a href="#" class="card"> <img src="images/top-view-cooked-rice-with-seasonings-dark-desk-food-dish-dark-meal-photo.png" alt="" class="cardim1"/>
           <h3>Fusion Table</h3>
           <h4>Chinese, Arabian</h4>
           <h4>30 MINS</h4>
           <div class="greenrating"> <img src="images/image-web/outline-star-white-24dp.png" alt=""/>
             <h2>4.2</h2>
           </div>
+			</a>
         </div>
-        <div class="rahath"> <img src="images/top-view-delicious-vegetable-salad-with-greens-carrot-dark-background-color-ripe-food-meal-healthy-life-photo.png" alt=""/>
+        <div class="rahath"><a href="#" class="card"> <img src="images/top-view-delicious-vegetable-salad-with-greens-carrot-dark-background-color-ripe-food-meal-healthy-life-photo.png" alt="" class="cardim1"/>
           <h3>Ramees</h3>
           <h4>Arabian, Indian, Beverages</h4>
           <h4>24 MINS</h4>
           <div class="greenrating"> <img src="images/image-web/outline-star-white-24dp.png" alt=""/>
             <h2>4.0</h2>
           </div>
+			</a>
         </div>
-        <div class="rahath"> <img style="height: 115px; border-radius: 10px; " src="images/Holborn.jpg" alt=""/>
+        <div class="rahath"><a href="#" class="card"> <img style="height: 115px; border-radius: 10px; " src="images/Holborn.jpg" alt="" class="cardim1"/>
           <h3>Holborn</h3>
           <h4>Arabian,Indian,Turkish</h4>
           <h4>24 MINS</h4>
           <div class="rating"> <img src="images/image-web/outline-star-white-24dp.png" alt=""/>
             <h2>3.9</h2>
           </div>
+			</a>
         </div>
       </div>
       <img src="images/side-arrow-right.png" alt="" class="sidearrow" width="27px" height="35px" />
@@ -652,23 +680,26 @@
       <h4>Provided by local restuarant</h4>
     </div>
     <div class="totalcard content-wd">
-      <div class="spcecialoffercard1"> <img class="specialofferimage1" src="images/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus.png" alt=""/>
+      <div class="spcecialoffercard1"><a href="#" class="card2"> <img class="specialofferimage1" src="images/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus.png" alt=""/>
         <h3 class="specialoffertext1">CITY HOTEL</h3>
         <h4 class="specialoffertext2">BIRIYANI </h4>
         <img class="specialofferimage2" src="images/discount_(1).png" alt=""/>
         <h4 class="specialoffertext3">30% off | Use NEW </h4>
+		  </a>
       </div>
-      <div class="spcecialoffercard1"> <img class="specialofferimage1" src="images/4040761.png" alt=""/>
+      <div class="spcecialoffercard1"><a href="#" class="card2"> <img class="specialofferimage1" src="images/4040761.png" alt=""/>
         <h3 class="specialoffertext1">LASSI SHOTS</h3>
         <h4 class="specialoffertext2">SMOOTHIES</h4>
         <img class="specialofferimage2" src="images/discount_(1).png" alt=""/>
         <h4 class="specialoffertext3">40% off | Use FOOD</h4>
+		  </a>
       </div>
-      <div class="spcecialoffercard1"> <img class="specialofferimage1" src="images/top-view-chopping-board-with-delicious-kebab-lemon.png" alt=""/>
+      <div class="spcecialoffercard1"><a href="#" class="card2"> <img class="specialofferimage1" src="images/top-view-chopping-board-with-delicious-kebab-lemon.png" alt=""/>
         <h3 class="specialoffertext1">TURKISH LAND</h3>
         <h4 class="specialoffertext2">ARABIC FOOD</h4>
         <img class="specialofferimage2" src="images/discount_(1).png" alt=""/>
         <h4 class="specialoffertext3">20% off | Use NEW </h4>
+		  </a>
       </div>
     </div>
   </div>
@@ -679,7 +710,7 @@
         restaurants</p>
       <div class="sumbit-group">
         <input class="sumbitbox" type="email" placeholder="Enter Your Email">
-        <input class="sumbit-btn" type="submit" value="submit">
+      <a href="#" class="sumbit"> <input class="sumbit-btn" type="submit" value="submit"></a>
       </div>
     </div>
     <div class="second-banner-overlay">
