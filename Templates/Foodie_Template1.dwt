@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>foodie</title>
+<!-- TemplateEndEditable -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+<link href="../styles/stylesheet1.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div id="fd-wrapper">
+  <div class="content-wd header">
+    <div class="nav-wrapper"> <img src="../images/Foodielogo.png" width="47" height="65" alt=""/>
+      <ul class="nav1">
+        <li><a class="navlist" href="#">CHOOSE LOCATION</a></li>
+        <li><a class="navlist" href="#">DELIVERY NOW</a></li>
+      </ul>
+    </div>
+    <ul class="nav1">
+      <li><a class="navlist" href="#">LOG IN</a></li>
+      <li><a class="navlist" href="#">REGISTER</a></li>
+    </ul>
+  </div>
+  <!-- TemplateBeginEditable name="EditRegion1" -->
+  <div class="banner">
+    <h3>30% OFF ON EVERY FIRST ORDER USE CODE NEW</h3>
+  </div>
+  <div class="sectionone content-wd">
+    <h3>Looking for something Else</h3>
+    <div class="sectiononesub">
+      <h4>Discover restaurant by types of meal</h4>
+    </div>
+    <div class="section-wrapper">
+      <div class="soup"><a href="#" class="meals-img"> <img src="../images/image-web/traditional-indian-soup-lentils-indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table.png" alt=""/></a>
+        <h3>Soup</h3>
+      </div>
+      <div class="pasta"><a href="#" class="meals-img"> <img src="../images/image-web/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.png" alt=""/></a>
+        <h3>Pasta</h3>
+      </div>
+      <div class="Shavarma"><a href="#" class="meals-img"> <img src= "../images/side-view-shawarma-with-fried-potatoes-board-cookware.png" alt=""/> </a>
+        <h3>Shavarma</h3>
+      </div>
+      <div class="Biriyani"><a href="#" class="meals-img"> <img src="../images/side-view-rice-garnish-with-fried-onion-carrot-greens-chili-pepper-table.png" alt=""/></a>
+        <h3>Biriyani</h3>
+      </div>
+      <div class="Sandwich"><a href="#" class="meals-img"> <img src="../images/club-sandwich-panini-with-ham-cheese-tomato-herbs.png" alt=""/></a>
+        <h3>Sandwich</h3>
+      </div>
+      <div class="Curry"><a href="#" class="meals-img"> <img src="../images/high-angle-chicken-meal.png" alt=""/></a>
+        <h3>Curry</h3>
+      </div>
+    </div>
+  </div>
+  <div class="sectiontwo">
+    <h3 class="content-wd heading">Popular Restaurant</h3>
+    <div class="sectiontwosub content-wd">
+      <h4>Near Your Locality</h4>
+      <span>View all offers</span> </div>
+    <div class="section-wrapper-two content-wd"> <img src="../images/image-web/arrow-icon.png" alt="" width="27px" height="35px" class="sidearrow"/>
+      <div style="display: flex; margin:0px 12px; column-gap: 12px;">
+        <div class="rahath"><a href="#" class="card"><img src="../images/top-view-indian-food-assortment.png" alt="" class="cardim1"/>
+          <h3>Rahath</h3>
+          <h4>South Indian, Indian</h4>
+          <h4>36MINS</h4>
+          <div class="rating"> <img src="../images/image-web/outline-star-white-24dp.png" alt=""/>
+            <h2>3.9</h2>
+          </div>
+			</a>
+        </div>
+        <div class="rahath"><a href="#" class="card"> <img src="../images/top-view-cooked-rice-with-seasonings-dark-desk-food-dish-dark-meal-photo.png" alt="" class="cardim1"/>
+          <h3>Fusion Table</h3>
+          <h4>Chinese, Arabian</h4>
+          <h4>30 MINS</h4>
+          <div class="greenrating"> <img src="../images/image-web/outline-star-white-24dp.png" alt=""/>
+            <h2>4.2</h2>
+          </div>
+			</a>
+        </div>
+        <div class="rahath"><a href="#" class="card"> <img src="../images/top-view-delicious-vegetable-salad-with-greens-carrot-dark-background-color-ripe-food-meal-healthy-life-photo.png" alt="" class="cardim1"/>
+          <h3>Ramees</h3>
+          <h4>Arabian, Indian, Beverages</h4>
+          <h4>24 MINS</h4>
+          <div class="greenrating"> <img src="../images/image-web/outline-star-white-24dp.png" alt=""/>
+            <h2>4.0</h2>
+          </div>
+			</a>
+        </div>
+        <div class="rahath"><a href="#" class="card"> <img style="height: 115px; border-radius: 10px; " src="../images/Holborn.jpg" alt="" class="cardim1"/>
+          <h3>Holborn</h3>
+          <h4>Arabian,Indian,Turkish</h4>
+          <h4>24 MINS</h4>
+          <div class="rating"> <img src="../images/image-web/outline-star-white-24dp.png" alt=""/>
+            <h2>3.9</h2>
+          </div>
+			</a>
+        </div>
+      </div>
+      <img src="../images/side-arrow-right.png" alt="" class="sidearrow" width="27px" height="35px" />
+      <div style="display: flex"> </div>
+    </div>
+  </div>
+  <div class="sectionthree">
+    <div class="sectionthreesub content-wd">
+      <h3 class="content-wd heading">Special offer</h3>
+      <h4>Provided by local restuarant</h4>
+    </div>
+    <div class="totalcard content-wd">
+      <div class="spcecialoffercard1"><a href="#" class="card2"> <img class="specialofferimage1" src="../images/indian-chicken-biryani-served-terracotta-bowl-with-yogurt-white-background-selective-focus.png" alt=""/>
+        <h3 class="specialoffertext1">CITY HOTEL</h3>
+        <h4 class="specialoffertext2">BIRIYANI </h4>
+        <img class="specialofferimage2" src="../images/discount_(1).png" alt=""/>
+        <h4 class="specialoffertext3">30% off | Use NEW </h4>
+		  </a>
+      </div>
+      <div class="spcecialoffercard1"><a href="#" class="card2"> <img class="specialofferimage1" src="../images/4040761.png" alt=""/>
+        <h3 class="specialoffertext1">LASSI SHOTS</h3>
+        <h4 class="specialoffertext2">SMOOTHIES</h4>
+        <img class="specialofferimage2" src="../images/discount_(1).png" alt=""/>
+        <h4 class="specialoffertext3">40% off | Use FOOD</h4>
+		  </a>
+      </div>
+      <div class="spcecialoffercard1"><a href="#" class="card2"> <img class="specialofferimage1" src="../images/top-view-chopping-board-with-delicious-kebab-lemon.png" alt=""/>
+        <h3 class="specialoffertext1">TURKISH LAND</h3>
+        <h4 class="specialoffertext2">ARABIC FOOD</h4>
+        <img class="specialofferimage2" src="../images/discount_(1).png" alt=""/>
+        <h4 class="specialoffertext3">20% off | Use NEW </h4>
+		  </a>
+      </div>
+    </div>
+  </div>
+  <div class="second-banner content-wd">
+    <div class="second-banner-content">
+      <h3>Download the app</h3>
+      <p>See menus and photos for nearby<br>
+        restaurants</p>
+      <div class="sumbit-group">
+        <input class="sumbitbox" type="email" placeholder="Enter Your Email">
+      <a href="#" class="sumbit"> <input class="sumbit-btn" type="submit" value="submit"></a>
+      </div>
+    </div>
+    <div class="second-banner-overlay">
+      <div class="number-wrapper content-wd">
+        <div class="number"> <span class="no"> 12 </span><br>
+          <span> COUNTRY </span> </div>
+        <div class="number"> <span class="no"> 1M+ </span><br>
+          <span> RESTAURANT </span> </div>
+        <div class="number"> <span class="no"> 120M </span><br>
+          <span> FOOD EVERY MONTH</span> </div>
+        <div class="number"> <span class="no"> 30M </span><br>
+          <span> BOOKMARKS </span> </div>
+      </div>
+    </div>
+  </div>
+  <!-- TemplateEndEditable -->  
+  <div class="footer">
+    <div class="footer-wrapper content-wd">
+      <div class="footer-item footer-item2"> <img src="../images/Logo-01-copy.png" alt="">
+        <div class="footer-icon"> <img src="../images/facebook.png" alt=""> <img src="../images/twitter.png" alt=""> <img src="../images/instagram.png" alt=""> </div>
+      </div>
+      <div class="footer-item">
+        <h2> About Company</h2>
+        <ul>
+          <li> About Us</li>
+          <li> Read Our Blog</li>
+          <li> Contact Us</li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <h2> Doing Business</h2>
+        <ul>
+          <li> Sign Up to Delivery</li>
+          <li> Be a Partner Restaurant</li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <h2> Get Help</h2>
+        <ul>
+          <li> Read FAQs</li>
+          <li> Account Details</li>
+          <li> View All Cities</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright content-wd"> <span>Copyright © 2021 </span>
+      <div class="copyright-wrapper"> <span>Privacy policies</span> <span>Terms of Use</span> <span>Rating</span> </div>
+      <select>
+        <option> English </option>
+        <option> Malayalam </option>
+      </select>
+    </div>
+  </div>
+</div>
+</body>
+</html>
