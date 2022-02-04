@@ -163,29 +163,30 @@
       <div class="footer-item">
         <h2> About Company</h2>
         <ul>
-          <li> About Us</li>
-          <li> Read Our Blog</li>
-          <li> Contact Us</li>
+          <li><a class="footer-link" href="#">About Us</a></li>
+          <li><a class="footer-link" href="#"> Read Our Blog</a></li>
+          <li><a class="footer-link" href="#"> Contact Us</a></li>
         </ul>
       </div>
       <div class="footer-item">
         <h2> Doing Business</h2>
         <ul>
-          <li> Sign Up to Delivery</li>
-          <li> Be a Partner Restaurant</li>
+          <li><a class="footer-link" href="#"> Sign Up to Delivery</a></li>
+          <li><a class="footer-link" href="#"> Be a Partner Restaurant</a></li>
         </ul>
       </div>
       <div class="footer-item">
         <h2> Get Help</h2>
         <ul>
-          <li> Read FAQs</li>
-          <li> Account Details</li>
-          <li> View All Cities</li>
+          <li><a class="footer-link" href="#"> Read FAQs</a></li>
+          <li><a class="footer-link" href="#"> Account Details</a></li>
+          <li><a class="footer-link" href="#"> View All Cities</a></li>
         </ul>
       </div>
     </div>
-    <div class="copyright content-wd"> <span>Copyright © 2021 </span>
-      <div class="copyright-wrapper"> <span>Privacy policies</span> <span>Terms of Use</span> <span>Rating</span> </div>
+    <div class="copyright content-wd"> <span><a class="footer-link" href="#">Copyright © 2021 </a></span>
+      <div class="copyright-wrapper"> <span><a class="footer-link" href="#">Privacy policies</a></span> <span><a class="footer-link" href="#">Terms of Use</a></span> 
+          <span><a class="footer-link" href="#">Rating</a></span> </div>
       <select>
         <option> English </option>
         <option> Malayalam </option>
